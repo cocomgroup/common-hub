@@ -53,7 +53,7 @@ const App: React.FC = () => {
     <div className="app">
       <aside className={`sidebar ${isCollapsed ? 'collapsed' : ''}`}>
         <div className="sidebar-header">
-          <h2 className="sidebar-title">{!isCollapsed && 'My App'}</h2>
+          <h2 className="sidebar-title">{!isCollapsed && 'Cocom Hub'}</h2>
           <button className="toggle-btn" onClick={toggleSidebar}>
             {isCollapsed ? '→' : '←'}
           </button>
