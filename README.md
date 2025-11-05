@@ -1,3 +1,5 @@
+Web project for common-hub
+
 Backend setup:
 cd backend
 go mod download
